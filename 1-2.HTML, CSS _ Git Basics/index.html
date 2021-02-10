@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Vasily Ilyuhin - CV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <section class="intro">
+
+    <h1 class="intro__title">Curriculum vitae <span>of Vasily Ilyuhin</span></h1>
+
+    <div class="intro__img">
+      <img src="./img/CV_photo.png" alt="It's me">
+    </div>
+
+  </section>
+
+  <section class="name">
+
+    <h2 class="name__title">1. Name</h2>
+
+    <p class="name__fullName">Vasily Ilyuhin</p>
+
+  </section>
+
+  <section class="contacts">
+
+    <h2 class="contacts__title">2. Contacts</h2>
+
+    <div class="contacts__wrapper">
+      <div class="contacts__item"><strong>email:</strong> <a href="mailto:v.ilyuhin@gmail.com">v.ilyuhin@gmail.com</a></div>
+      <div class="contacts__item"><strong>phone:</strong>  <a href="tel:+375447219716">+375(44)721-97-16</a></div>
+      <div class="contacts__item"><strong>telegram:</strong> <a href="https://telegram.me/irrbis38" target="_blank">irrbis38</a></div>
+      <div class="contacts__item"><strong>GitHub:</strong> <a href="https://github.com/irrbis38" target="_blank">irrbis38</a></div>
+    </div>
+
+  </section>
+
+  <section class="about">
+
+    <h2 class="about__title">3. About</h2>
+
+    <p class="about__text">I'm 37 years old. Married. I have two kids.<br>
+    For the last 15 years I have been working at the plant. We service CNC maсhines.<br>
+    I have been studying web technologies for a year.<br>
+    During this time, I studied HTML/CSS-coding.<br>
+    Completed few projects as a freelancer.<br>
+    But my purpose is to become a true JavaScript developer.<br>
+    Now I am learning JavaScript and React.</p>
+
+  </section>
+  
+  <section class="technologies">
+
+    <h2 class="technologies__title">4. Technologies, that I know</h2>
+
+    <ul class="technologies__wrapper">
+      <li class="technologies__item">HTML5</li>
+      <li class="technologies__item">CSS3 (including Flexbox, Grid)</li>
+      <li class="technologies__item">SCSS</li>
+      <li class="technologies__item">Bootstrap (just grid)</li>
+      <li class="technologies__item">Git</li>
+      <li class="technologies__item">Adobe Photoshop and Figma</li>
+      <li class="technologies__item">I know a little JavaScript, jQuery and BEM</li>
+    </ul>
+
+  </section>
+  
+  <section class="code">
+
+      <h2 class="code__title">5. Sample of code</h2>
+
+      <p class="code__text">An excerpt from my JavaScript notes.</p>
+
+      <p class="code__text">There is a code:</p>
+
+      <code class="code__blockCode">
+        function foo(){
+          let arr = [];
+
+          for(var i=0; i < 3; i++){
+            (function(i){
+              arr[i] = () => i;
+            })(i);		
+          }
+
+          return arr;
+        }
+
+        let next = foo();</code>
+
+      <p class="code__text">When we output to the console each element of the array <code>console.log<wbr>(next[index_of_element]());</code> we get 3, and not 0 1 2, as it might seem at once:</p>
+
+      <code class="code__blockCode">
+        console.log(next[0]()); //>>3
+        console.log(next[1]()); //>>3
+        console.log(next[2]()); //>>3
+      </code>
+
+      <p class="code__text">This behavior is a feature of declaring variables using var.</p>
+
+  </section>
+
+  <section class="experience">
+
+    <h2 class="experience__title">6. Experience</h2>
+
+    <p class="experience__text">As an HTML/CSS-coder I made several projects for my own portfolio (to visit page click on the picture):</p>
+
+    <div class="experience__wrapper">
+
+      <div class="experience__item">
+        <div class="experience__portfolio">
+          <img src="./img/1.jpg" alt="portfolio preview">
+          <a href="https://irrbis38.github.io/FreeAgency/" target="_blank"></a>
+        </div>
+        <p class="experience__description">Responsive coding from psd to html of FreeAgency's site</p>
+        <p class="experience__tech">Used technologies - HTML, CSS</p>
+        <a href="https://github.com/irrbis38/FreeAgency" target="_blank">sorce code</a>
+      </div>
+
+      <div class="experience__item">
+        <div class="experience__portfolio">
+          <img src="./img/2.jpg" alt="portfolio preview">
+          <a href="https://irrbis38.github.io/HealthySwitcher/" target="_blank"></a>
+        </div>
+        <p class="experience__description">Responsive coding from psd to html of HealthySwitcher's site</p>
+        <p class="experience__tech">Used technologies - HTML, CSS, jQuery</p>
+        <a href="https://github.com/irrbis38/HealthySwitcher" target="_blank">sorce code</a>
+      </div>
+
+      <div class="experience__item">
+        <div class="experience__portfolio">
+          <img src="./img/3.jpg" alt="portfolio preview">
+          <a href="https://irrbis38.github.io/DreamMaker/" target="_blank"></a>
+        </div>
+        <p class="experience__description">Responsive coding from figma to html of Dreammaker's site</p>
+        <p class="experience__tech">Used technologies - HTML, CSS, jQuery</p>
+        <a href="https://github.com/irrbis38/DreamMaker" target="_blank">sorce code</a>
+      </div>
+
+    </div>
+
+    <p class="experience__text">Also completed two commercial projects (to visit page click on the picture):</p>
+
+    <div class="experience__wrapper">
+
+      <div class="experience__item">
+        <div class="experience__portfolio">
+          <img src="./img/4.jpg" alt="portfolio preview">
+          <a href="https://irrbis38.github.io/testWebFocus/" target="_blank"></a>
+        </div>
+        <p class="experience__description">Responsive coding from figma to html of Law firm's site</p>
+        <p class="experience__tech">Used technologies - HTML, CSS, JavaScript, jQuery</p>
+        <a href="https://github.com/irrbis38/testWebFocus">sorce code</a>
+      </div>
+
+      <div class="experience__item">
+        <div class="experience__portfolio">
+          <img src="./img/5.jpg" alt="portfolio preview">
+          <a href="https://irrbis38.github.io/https-chysto.by-/" target="_blank"></a>
+        </div>
+        <p class="experience__description">Responsive coding from figma to html of Cleaning company's site, landing to CMS Wordpress</p>
+        <p class="experience__tech">Used technologies - HTML, CSS, JavaScript, jQuery, Wordpress</p>
+        <a href="https://github.com/irrbis38/https-chysto.by-" target="_blank">sorce code</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="education">
+
+    <h2 class="education__title">7. Education</h2>
+
+    <p class="education__text">
+      I acquired all my knowledge on my own, reading books, manuals and watching video courses.
+      In the process of studying, I actively used the Internet resources <a href="https://www.freecodecamp.org/" target="_blank">freecodecamp.org</a> and <a href="https://www.w3schools.com/" target="_blank">w3schools.com</a>, as well as video courses from the <a href="http://en.specialist.ru/" target="_blank">Computer Training Center "Specialist" at The Bauman Moscow State Technical University</a>.
+    </p>
+
+  </section>
+
+  <section class="english">
+
+    <h2 class="english__title">8. English level</h2>
+
+    <p class="english__text">As the test results on training.by showed, my English level is A1.<br>
+    My spoken English is really bad. I need to study and practice more.<br>
+    But right now I can read documentation and technical literature, also I can listen to simple podcasts.<br>
+    Now I keep to improve my English. I read adapted B2-level literature, take the video course <a href="https://www.youtube.com/user/elenavogni"  target="_blank">"OK English"</a> and listening to <a href="https://teacherluke.co.uk/" target="_blank">Teacher Luke's podcasts</a>.</p>
+
+  </section>
+
+</div>
+
+</body>
+</html>
