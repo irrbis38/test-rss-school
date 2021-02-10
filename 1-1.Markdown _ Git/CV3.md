@@ -5,7 +5,7 @@ Vasily Ilyuhin
 ### 2. Contacts
 
 **email:** <v.ilyuhin@gmail.com>  
-**phone:** [+375 (44) 721-97-16](tel:+375447219716)  
+**phone:** +375 (44) 721-97-16  
 **telegram:** [irrbis38](https://telegram.me/irrbis38)  
 **GitHub:** [irrbis38](https://github.com/irrbis38)
 
