@@ -37,7 +37,7 @@ There is a code:
 function foo(){
 	let arr = [];
 
-	for(var i=0; i &lt 3; i++){
+	for(var i=0; i < 3; i++){
 		(function(i){
 			arr[i] = () => i;
 		})(i);		
